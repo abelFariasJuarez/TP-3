@@ -1,5 +1,5 @@
 /***************************************************
-Fahrenheit (°F) = [ Celsius (°C) x 1.8 ] + 32
+Fahrenheit (Â°F) = [ Celsius (Â°C) x 1.8 ] + 32
 usando "const"
 Abel Cesar, Farias Juarez
 20150413
@@ -15,8 +15,6 @@ int main(void){
 	
 	printf("\t%s -->\t%s\n","Celsius", "Fahrenheit");
 	for(int cel= tablaDesde ; cel < tablaHasta; cel++){
-		/*puts("-_-_- HOLA MUNDO -_-_-\n");*/
-      	
 		  printf("\t%03d -->\t%04.2f\n",cel, ( (cel * factorConversion) + ajusteConversion) );
     }	
 }
